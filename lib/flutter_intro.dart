@@ -77,7 +77,7 @@ class Intro {
   Intro({
     @required this.widgetBuilder,
     @required this.stepCount,
-    this.maskColor = const Color.fromRGBO(0, 0, 0, .8),
+    this.maskColor = const Color.fromRGBO(0, 0, 0, .9),
     this.noAnimation = false,
     this.borderRadius = const BorderRadius.all(Radius.circular(4)),
     this.padding = const EdgeInsets.all(8),
